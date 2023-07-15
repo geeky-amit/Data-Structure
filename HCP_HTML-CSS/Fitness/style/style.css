@@ -1,0 +1,149 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 2.6em;
+}
+
+.text-l {
+  font-size: 2.25em;
+}
+
+.text-md {
+  font-size: 2em;
+}
+
+.text-sm {
+  font-size: 1.75em;
+}
+.text-xs {
+  font-size: 1.5em;
+}
+
+.app-pad-x {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: #ababad;
+}
+
+.text-dgreen {
+  color: #4ca399;
+}
+
+.text-lgreen {
+  color: #c1de2f;
+}
+
+.bg-dgreen {
+  background-color: #2bb3b1;
+}
+
+.bg-lgreen {
+  background-color: #4abebd;
+}
+
+.pad-y-xl {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.pad-y-lg {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pad-x-lg {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pad-y-md {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pad-y-sm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.m-y-xl {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.m-y-lg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.m-b-lg {
+  margin-bottom: 30px;
+}
+
+.m-y-md {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.m-y-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.btn {
+  font-size: 1em;
+  padding: 1em 4em;
+  font-weight: regular;
+  border-radius: 0.5em;
+  border: 0;
+}
+
+.btn.btn-green {
+  background-color: #bfdf32;
+  color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+#price-container > span:first-child {
+  font-size: 70px;
+}
+#price-container > span {
+  display: block;
+}
+
+#feature-list {
+  list-style: none;
+  padding-left: 0;
+}
+#feature-list > li {
+  margin-bottom: 12px;
+}
+
+#feature-list > li:last-child {
+  margin-bottom: 0;
+}

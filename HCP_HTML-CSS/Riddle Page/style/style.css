@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  background-color: #674bb1;
+  /* background-image: url("./asset/Group\ 30.svg"); */
+  /* box-sizing: border-box; */
+}
+
+nav > img {
+  height: 40px;
+  width: 120px;
+}
+
+#top-section {
+  padding: 28px 36px;
+}
+
+.bg-light-gray {
+  background-color: #e3e8ec;
+}
+
+.bg-dark-gray {
+  background-color: #adbdca;
+}
+
+.bg-circle-orange {
+  background: transparent linear-gradient(180deg, #feb078 0%, #fe74aa 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.bg-circle-blue {
+  background: transparent linear-gradient(180deg, #02befa 0%, #018cf7 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.bg-circle-purple {
+  background: transparent linear-gradient(180deg, #ec53d0 0%, #b44df2 100%) 0%
+    0% no-repeat padding-box;
+}
+#graphics-container {
+  margin-top: 40px;
+}
+.app-card {
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.app-card > .card-header {
+  width: 100%;
+  height: 20px;
+  background-color: #0a2a3a;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.app-card > .card-header > .search {
+  float: left;
+  background-color: #dee3e7;
+  width: 60px;
+  height: 8px;
+  margin-top: 6px;
+  border-radius: 5px;
+}
+
+.app-card > .card-header > .hamburger {
+  float: right;
+  width: 14px;
+  margin-top: 4px;
+}
+
+.app-card > .card-header > .hamburger > div {
+  background-color: #dee3e7;
+  height: 2px;
+  margin-top: 2px;
+}
+
+.app-card > .card-header > .hamburger > div:last-child {
+  margin-bottom: 0;
+}
+
+.app-card > .card-body {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.app-card > .card-body > ul {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.app-card > .card-body .card-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.app-card > .card-body .card-row:last-child {
+  margin-bottom: 0;
+}
+
+.app-card > .card-body .card-row > .row-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.app-card > .card-body .card-row > .row-desc {
+  width: 60%;
+  margin-left: 18px;
+}
+
+.app-card > .card-body .card-row > .row-desc > .row-line {
+  background-color: #e1e6ea;
+  height: 2px;
+  margin-bottom: 4px;
+}
+
+.app-card > .card-body .card-row > .row-desc > .row-line.line-heading {
+  width: 34px;
+  height: 6px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 6px;
+}
+
+.app-card > .card-body .card-row > .row-desc > .row-line.line-lg {
+  width: 100%;
+}
+
+.app-card > .card-body .card-row > .row-desc > .row-line.line-md {
+  width: 90%;
+}
+
+.app-card > .card-body .card-row > .row-desc > .row-line.line-sm {
+  width: 80%;
+}
+
+.app-card > .card-body .card-row > .row-people {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 12px;
+  align-content: center;
+}
+
+.app-card > .card-body .card-row > .row-people > .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #adbdca;
+  margin-right: 2px;
+}
+
+.app-card > .card-body .card-row > .row-people > .circle:last-child {
+  margin-right: 0px;
+}

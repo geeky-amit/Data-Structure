@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(136deg, #fcf3f3, #ffffff, #faf1f0);
+  width: 57.5%;
+  height: 832px;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+.circle {
+  height: 39px;
+  width: 39px;
+  border-radius: 39px;
+  border: #e7a09e solid 2px;
+  margin-left: 166px;
+  margin-top: 78px;
+  opacity: 1;
+}
+
+.nav-text {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 76px;
+}
+
+.nav-text > ul > li {
+  font-weight: 300;
+  font-size: 18px;
+  color: #5f5a5a;
+}
+
+.nav-section {
+  gap: 12px;
+}
+
+.main-section {
+  margin-top: 109px;
+  margin-bottom: 170px;
+}
+.main-section > h2 {
+  margin-left: 181px;
+  color: #d2a1a2;
+  font-size: 64px;
+  font-weight: 200;
+}
+.main-section > h1 {
+  margin-left: 179px;
+  color: #393334;
+  font-size: 64px;
+  font-weight: 300;
+}
+.main-section > p {
+  margin-left: 171px;
+  padding-top: 26px;
+  padding-right: 206px;
+  color: #9a6b69;
+
+  font-size: 13px;
+}
+
+.main-section > form {
+  margin-left: 171px;
+  padding-top: 51px;
+  /* height: 57px;
+  width: 456px; */
+
+  /* border: 1px solid #9a6b69;
+  border-radius: 29px;
+  width: 456px;
+  height: 57px; */
+}
+
+.search-text {
+  width: 361px;
+  height: 57px;
+  border: 1px solid #9a6b69;
+  border-radius: 29px;
+  opacity: 1;
+  outline: none;
+}
+
+.search-btn {
+  height: 59px;
+  width: 95px;
+  background: #e7a09e 0% 0% no-repeat padding-box;
+  border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 29px;
+  margin-left: -60px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+::placeholder {
+  padding-left: 35px;
+}
+
+.btn-text {
+  width: 8px;
+  height: 8px;
+  /* transform: matrix(0, 1, -1, 0, 0, 0); */
+  border: 2px solid #fffdfe;
+  opacity: 1;
+  margin: auto;
+  transform: rotate(-45deg);
+  border-left: none;
+  border-top: none;
+}
+.image-section {
+  background: transparent url("./assets/Rectangle\ 41.png") 0% 0% no-repeat
+    padding-box;
+  border: 1px solid #707070;
+  width: 42.5%;
+}
+
+@media screen and (max-width: 576px) {
+}

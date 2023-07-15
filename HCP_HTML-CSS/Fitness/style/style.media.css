@@ -1,0 +1,26 @@
+@media screen and (min-width: 576px) {
+  body {
+    text-align: left;
+  }
+  #bottom-container {
+    display: flex;
+  }
+
+  #bottom-container > div {
+    flex-basis: 50%;
+    box-sizing: border-box;
+  }
+
+  .app-pad-x {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  #full-access-desc {
+    padding: 0;
+  }
+
+  #price-container > span {
+    display: inline;
+  }
+}
