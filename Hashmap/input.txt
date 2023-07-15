@@ -1,0 +1,6 @@
+5
+radar
+abc
+ab
+caa
+ccdbb
